@@ -48,7 +48,7 @@ if(isset($_GET['id'])){
 			<div class="row form-group">
 				<div class="col-md-5">
 					<div class="">
-						<label for="">Aadhaar No</label>
+						<label for="">NIN</label>
 						<input type="text" class="form-control" name="aadhaar" value="<?php echo isset($aadhaar) ? $aadhaar : '' ?>">
 					</div>
 				</div>

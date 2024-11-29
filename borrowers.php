@@ -54,9 +54,9 @@
 								<p ><small>Address: <b><?php echo $row['address'] ?></small></b></p>
 								<p ><small>Contact No: <b><?php echo $row['contact_no'] ?></small></b></p>
 								<p ><small>Email ID: <b><?php echo $row['email'] ?></small></b></p>
-								<p ><small>Aadhaar No: <b><?php echo $row['aadhaar'] ?></small></b></p>
-								<p ><small>PAN: <b><?php echo $row['pan'] ?></small></b></p>
-								<p ><small>Date Created: <b><?php echo date("M d, Y",strtotime($row['date_created'])) ?></small></b></p>
+								<p ><small>NIN: <b><?php echo $row['aadhaar'] ?></small></b></p>
+							
+							
 								
 							</td>
 							<?php if($_SESSION['login_type'] == 1): ?>
@@ -107,6 +107,7 @@
 	$('#new_borrower').click(function(){
 		uni_modal("New Borrower","manage_borrower.php",'mid-large')
 	})
+	
 	$('.add_photo').click(function(){
 		uni_modal("Add Photo","upload.php?id="+$(this).attr('data-id'),'mid-large')
 	})

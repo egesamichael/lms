@@ -138,7 +138,7 @@ Class Action {
 		$data .= ", contact_no = '$contact_no' ";
 		$data .= ", email = '$email' ";
 		$data .= ", aadhaar = '$aadhaar' ";
-		$data .= ", pan = '$pan' ";
+		// $data .= ", pan = '$pan' ";
 		if(empty($firstname) || empty($address) || empty($contact_no) || empty($aadhaar) || empty($pan)){
 			return 0;
 		}
