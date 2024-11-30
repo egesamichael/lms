@@ -48,7 +48,7 @@ header("location:index.php?page=home");
 		</div>
 	</div>
 
-	<footer>All rights reserved &copy; 2023 | Designed & Developed By Happy Kumar</footer>
+	<footer>All rights reserved &copy; Davis</footer>
   </main>
 
 

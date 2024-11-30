@@ -81,7 +81,7 @@
   </div>
 </div>
 
-  <footer>All rights reserved &copy; 2023 | Designed & Developed By Happy Kumar</footer>
+  <footer>All rights reserved &copy; Davis</footer>
 </body>
 <script>
 	 window.start_load = function(){
